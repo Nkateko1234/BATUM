@@ -1,42 +1,73 @@
 <!Doctype html>
-<html>
+<html lang = "en">
 <head>
 <title>About us</title>
+<link rel="stylesheet" href = "css/CSS Styles 2 About.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style = "background-color:black">
-<header style = "background-color:white">
-<nav>
-<div>
-    <!-- Company logo and brand name -->
-<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;">BATUM
+<body>
+<header>
+<nav class = "navbar">
+<div class = "logo">
+<!-- Company logo and brand name -->
+<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;border-radius:50%;">BATUM
+<p class="tagline">Confidence in Every Outfit.</p>
 </div>
-<ul>
+
+<!--Hamburger for mobile-->
+<div class = "hamburger" onclick = "document.querySelector('.nav-links').classList.toggle('show')">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
 <!-- Navigation links to other pages -->
-<li><a href="home.html">Home page</a> </li>
-<li><a href="about.html">About us </a> </li>
-<li><a href="products.html">Products and Service </a> </li>
-<li><a href = "news.html"> News Update</a> </li>
-<li><a href = "contact.html"> Contact us </a></li>
-</ul>
+<div class = "nav-links">
+<a href="home.html">Home page</a>
+<a href="about.html">About us </a>
+<a href="products.html">Products and Service </a>
+<a href = "news.html"> News Update</a>
+<a href = "contact.html"> Contact us </a>
+</div>
 </nav>
 </header>
 <main>
 <!-- Page heading -->
-<h1><font color = "white">About us</font></h1>
-<h2><font color = "white">Brief history </font></h2>
-<p><font color = "white">BATUM is a small retail clothing business founded with the vision of bringing stylish, affordable and high-quality fashion to the local community. 
-BATUM has grown steadily by focusing on personal customer service and a passion for making fashion accessible to everyone. The business has established itself as a trusted name in clothing retail, blending modern trends with timeless styles</font></p>
-<h2><font color = "white">Brief History </font></h2>
-<h2><font color = "white">Our Mission </font></h2>
-<p><font color = "white">Our mission is to provide affordable, stylish, and quality clothing that empowers individuals to express themselves confidently while delivering exceptional customer service.</font></p> 
-<h2><font color = "white">Vision</font></h2>
-<p><font color = "white">To become a leading local clothing retailer known for innovation, inclusivity, and sustainability, expanding our reach while staying true to our community roots.</font></p>
+<h1>About us</font></h1>
+<img src = "Images/Image 1.jpg" alt = "Batum image"  class="batum-image">
+<h2>Brief history </h2>
+<p>BATUM is a small retail clothing business founded with the vision of bringing stylish, affordable and high-quality fashion to the local community. 
+BATUM has grown steadily by focusing on personal customer service and a passion for making fashion accessible to everyone. The business has established itself as a trusted name in clothing retail, blending modern trends with timeless styles	</p>
+
+<h2>Our Values</h2>
+<ul>
+<li><strong>Quality First:</strong> We ensure durable, comfortable, and stylish clothing for all occasions.</li>
+<li><strong>Customer-Centered:</strong> We listen, adapt, and serve based on what our community loves.</li>
+<li><strong>Creativity & Culture:</strong> Our designs are inspired by both global trends and local uniqueness.</li>
+<li><strong>Sustainability:</strong> We aim to reduce waste and promote mindful consumption.</li>
+ </ul>
+  
+ <p>
+    Whether you’re shopping online or visiting us in person, BATUM is committed to delivering not just fashion, 
+    but also an experience that makes you feel valued and stylish. 
+ </p>
+ 
+<h2>Our Mission </h2>
+<p>Our mission is to provide affordable, stylish, and quality clothing that empowers individuals to express themselves confidently while delivering exceptional customer service.</p> 
+<p>
+Our collections are inspired by modern streetwear trends, timeless designs, and the energy of youth culture. 
+Each product is carefully selected to ensure premium quality while staying accessible to our loyal customers.
+</p>
+
+
+<h2>Vision</h2>
+<p>To become a leading local clothing retailer known for innovation, inclusivity, and sustainability, expanding our reach while staying true to our community roots.</p>
 
 
 </main>
-<footer style = "background-color:Black">
-<p><font color = "white">&copy;ST10477353. 2025 BATUM | All rights Reserved.</font>
+<footer>
+<p>&copy;ST10477353. 2025 BATUM | All rights Reserved.</p>
 </footer>
 </body>
 </html>

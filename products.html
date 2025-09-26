@@ -1,37 +1,49 @@
 <!Doctype html>
-<html>
+<html lang = "en">
 <head>
 <title>Products and services</title>
+<link rel = "stylesheet" href = "css/CSS Styles 3 Products.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style = "background-color:black">
-<header style = "background-color:white">
-<nav>
-<div>
+<body>
+<header>
+<nav class = "navbar">
+<div class = "logo">
     <!-- Company logo and brand name -->
-<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;">BATUM
+<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;border-radius:50%;">BATUM
+<p class="tagline">Confidence in Every Outfit.</p>
 </div>
-<ul>
     <!--Navigation links to other pages-->
-<li><a href="home.html">Home page</a> </li>
-<li><a href="about.html">About us </a> </li>
-<li><a href="products.html">Products and Service </a> </li>
-<li><a href = "news.html"> News Update</a> </li>
-<li><a href = "contact.html"> Contact us </a></li>
-</ul>
+<div class = "hamburger" onclick = "document.querySelector('.nav-links').classList.toggle('show')">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<!--Navigation links to other pages-->
+<div class = "nav-links">	
+<a href="home.html">Home page</a>
+<a href="about.html">About us </a>
+<a href="products.html">Products and Service </a>
+<a href = "news.html"> News Update</a>
+<a href = "contact.html"> Contact us </a>
+</div>
 </nav>
 </header>
 <main>
-<h1><font color = "white">Welcome to Batum's products and services page</font></h1>
-<img src = "Images/Shirt 1.jpg" style = "width:400px;height:400px;"/>
-<img src = "Images/Shirt 2.jpg" style = "width:400px;height:400px;" />
-<img src = "Images/Shirt 3.jpg" style = "width:400px;height:400px;"/><br/>
-<img src = "Images/Shirt 4.jpg" style = "width:400px;height:400px;"/>
-<img src = "Images/Shirt 5.jpg" style = "width:400px;height:400px;"/>
-<img src = "Images/Shirt 6.jpg" style = "width:400px;height:400px;"/>
+<h1>Welcome to Batum's products and services page</h1>
+<div class="product-gallery">
+<img src = "Images/Shirt 1.jpg" alt = "shirt 1">
+<img src = "Images/Shirt 2.jpg" alt = "shirt 2">
+<img src = "Images/Shirt 3.jpg" alt = "shirt 3">
+<img src = "Images/Shirt 4.jpg" alt = "shirt 4">
+<img src = "Images/Shirt 5.jpg" alt = "shirt 5">
+<img src = "Images/Shirt 6.jpg" alt = "shirt 6">
+</div>
 </main>
-<footer style = "background-color:black">
-<p><font color = "white">&copy;ST10477353. 2025 BATUM | All rights Reserved.</font>
+<footer>
+<p>&copy;ST10477353. 2025 BATUM | All rights Reserved.</p>
 </footer>
 </body>
 </html>

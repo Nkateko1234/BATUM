@@ -1,38 +1,51 @@
  <!Doctype html>
-<html>
+<html lang = "en">
 <head>
 <title>Contact Page</title>
+<link rel="stylesheet" href = "css/CSS Styles 4 Contact.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style = "background-color:black">
-<header style = "background-color:white">
-<nav>
-<div>
+<body>
+<header>
+<nav class="navbar">
+<div class="logo">
     <!-- Company logo and brand name -->
-<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:60px;height:60px;">BATUM
+<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:60px;height:60px;border-radius:50%;">BATUM
+<p class="tagline">Confidence in Every Outfit.</p>
 </div>
-<ul>
+<!--Hamburger for mobile-->
+<div class = "hamburger" onclick = "document.querySelector('.nav-links').classList.toggle('show')">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
 <!--Navigation links to other pages-->
-<li><a href="home.html">Home page</a> </li>
-<li><a href="about.html">About us </a> </li>
-<li><a href="products.html">Products and Service </a> </li>
-<li><a href = "news.html"> News Update</a> </li>
-<li><a href = "contact.html"> Contact us </a></li>
-</ul>
+<div class = "nav-links">
+<a href="home.html">Home page</a>
+<a href="about.html">About us </a>
+<a href="products.html">Products and Service </a>
+<a href = "news.html"> News Update</a>
+<a href = "contact.html"> Contact us </a>
+</div>
 </nav>
 </header>
 <main>
-<h1><font color = "white">Contact Us</font></h1>
-<p><font color = "white">Email: contact@urbanthreads.com</font></p>
-<p><font color = "white">Phone: 072 694 0506</br> 069 592 4802</font></p>
-<p><font color = "white">Address: 5753 Immink Drive, Diepkloof, Soweto</font></p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.517443514865!2d27.94679517574313!3d-26.244864677051513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9509bf45eef001%3A0xde26cdd9bf69a110!2s5753%20Immink%20Dr%2C%20Diepkloof%20Zone%205%2C%20Johannesburg%2C%201864%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1755204492948!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<h1>Contact Us</h1>
+<p>Email: batumclothing@gmail.com</p>
+<p>Sales & Orders: shop@batum.co.za</p>
+<p>Phone: 072 694 0506</br> 069 592 4802</p>
 
+<h3>Address: 5753 Immink Drive, Diepkloof, Soweto</h3>
+<div class = "map-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.517443514865!2d27.94679517574313!3d-26.244864677051513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9509bf45eef001%3A0xde26cdd9bf69a110!2s5753%20Immink%20Dr%2C%20Diepkloof%20Zone%205%2C%20Johannesburg%2C%201864%2C%20South%20Africa!5e0!3m2!1sen!2sie!4v1755204492948!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 
 </main>
-<footer style = "background-color:black">
-<p><font color = "white">&copy;ST10477353. 2025 BATUM | All rights Reserved.</font>
+<footer>
+<p>&copy;ST10477353. 2025 BATUM | All rights Reserved.</p>
 </footer>
 </body>
 </html>

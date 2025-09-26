@@ -1,38 +1,52 @@
 <!Doctype html>
-<html>
+<html lang= "en">
 <head>
 <title>News</title>
+<link rel="stylesheet" href = "css/CSS Styles 5 News.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style = "background-color:black">
-<header style = "background-color:white">
-<nav>
-<div>
+<body>
+<header>
+<nav class ="navbar">
+<div class="logo">
     <!-- Company logo and brand name -->
-<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;">BATUM
+<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;border-radius:50%">BATUM
+<p class="tagline">Confidence in Every Outfit.</p>
 </div>
-<ul>
+
+<!--Hamburger for mobile-->
+<div class = "hamburger" onclick = "document.querySelector('.nav-links').classList.toggle('show')">
+<span></span>
+<span></span>
+<span></span>
+</div>
 <!--Navigation links to other pages-->
-<li><a href="home.html">Home page</a> </li>
-<li><a href="about.html">About us </a> </li>
-<li><a href="products.html">Products and Service </a> </li>
-<li><a href = "news.html"> News Update</a> </li>
-<li><a href = "contact.html"> Contact us </a></li>
-</ul>
+<div class = "nav-links">
+<a href="home.html">Home page</a> 
+<a href="about.html">About us </a>
+<a href="products.html">Products and Service </a>
+<a href = "news.html"> News Update</a> 
+<a href = "contact.html"> Contact us </a>
 </nav>
 </header>
 <main>
-<h1><font color = "white">News and Updates</font></h1>
-<h2><font color = "white"> BATUM Launches its summer 2025 Collection on the 22nd of September 2025<br/>
-Exclusive Winter Sale - Up to 40% Off Selected items</font></h2>
-<img src = "Images/Coming soon img.jpg" style = "width:300px;height:400px;"
+<h1>News and Updates</h1>
+<p>BATUM Launches its end of the year 2025 Collection on the 25 of November 2025 to celebrate its 10 years birthday celebration<br/>
+Exclusive Winter Sale - Up to 40% Off Selected items</p>
 
 
+<img src = "Images/Coming soon img.jpg" alt="Coming soon" class="news-image">
+<h2>BATUM Celebrates 10 Years with Store Openings, Designer Collaborations, and Exciting Product Launches</h2>
+<p>BATUM, a proudly South African fashion brand, is marking a major milestone: 10 years of delivering confidence through clothing. In celebration, BATUM is launching three new flagship stores in Cape Town, Durban, and Pretoria this October — expanding its national presence and bringing bold, affordable fashion to even more customers.
+As part of this exciting chapter, BATUM is celebrating a record-breaking achievement of over 10 thousand units sold nationwide, solidifying its status as one of the country’s fastest-growing fashion retailers.
 
+To further mark the occasion, BATUM is launching two major collections: the vibrant Holiday 2025 line and a brand-new Activewear Series designed for comfort, movement, and style. Additionally, BATUM is collaborating with up-and-coming South African designers to release exclusive, limited-edition pieces that showcase a blend of tradition and trend.
 
+Customers are invited to join the grand opening celebrations, which will feature live entertainment, giveaways, launch-day discounts, and early access to the new collections. With a decade of growth behind it and a bold future ahead, BATUM continues to redefine fashion for the modern, confident South African.</p>
 </main>
-<footer style = "background-color:black">
-<p><font color = "white">&copy;ST10477353. 2025 BATUM | All rights Reserved.</font>
+<footer>
+<p>&copy;ST10477353. 2025 BATUM | All rights Reserved.
 </footer>
 </body>
 </html>
