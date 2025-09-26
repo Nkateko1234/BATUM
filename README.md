@@ -4,15 +4,39 @@ The BATUM Website is a small retail clothing website designed to showcase the br
 
 The website includes:
 
-A Homepage with a welcome message and featured collections
+A Homepage with a welcome message and featured collections.
 
-An About Us page with brand story, mission, vision, and team
+An About Us page with brand story, mission, vision, and team.
 
-A Products & Services page showcasing clothing items
+A Products & Services page showing clothing items
 
-A News page for updates, product launches, and promotions
+A News page for updates, product launches, and promotions.
 
 A Contact Us page with contact details and a Google Map embed
+
+# Features
+
+Responsive navigation bar with hamburger menu for mobile
+
+Product gallery with hover effects
+
+News updates and promotions section
+
+Team and About Us sections for brand storytelling
+
+Embedded Google Maps for store location
+
+Stylish footer with copyright information
+
+# Design
+
+Color Scheme: Black background with white text and yellow highlights
+
+Typography: Arial, sans-serif (clean and modern look)
+
+Layout: Responsive grid and flexbox for products and team section
+
+User Experience: Clear navigation, centered content, easy readability
 
  # Website structure
 /BATUM-Website
