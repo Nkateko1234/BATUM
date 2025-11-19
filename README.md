@@ -83,6 +83,5 @@ Changes Implemented on my part 2 from part 1
 - <meta name="author" content="Sphiwe Nkateko Manganyi"> This shows the author of the website
 - <meta name="keywords" content="HTML, CSS, JavaScript"> This shows the different languages i used
 - I have also added an Enquiry page and added a Form Enquiry.
-
--
+- I added form validation to validate the 
 
