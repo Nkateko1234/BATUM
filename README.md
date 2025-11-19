@@ -72,17 +72,17 @@ Changes Implemented on my part 2 from part 1
 - # Part 3 Changes to my website
 - Changes Implemented on my part 3 from part 2
 - For part 3 I will add an Interactive map that will display on the contact us page
-I will also add a Gallery lightbox that will display the pictures when you click them and also add an effect that hovers around the pictures 
-I added a different style for the light box which has a White background and black icons
-I will also add a slide show that allows the user to move from one picture to another
-I will also add SEO Title tags , SEO Meta Keywords, SEO Description and SEO Images:
-These are the following SEO’s I used:
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="BATUM OFFICIAL HOME PAGE">
-<meta name="author" content="Sphiwe Nkateko Manganyi">
-<meta name="keywords" content="HTML, CSS, JavaScript">
-I have also added an Enquiry page and added a Form Enquiry.
+- I will also add a Gallery lightbox that will display the pictures when you click them and also add an effect that hovers around the pictures 
+- I added a different style for the light box which has a White background and black icons
+- I will also add a slide show that allows the user to move from one picture to another
+- I will also add SEO Title tags , SEO Meta Keywords, SEO Description and SEO Images:
+- These are the following SEO’s I used:
+- <meta charset="UTF-8">
+- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+- <meta name="description" content="BATUM OFFICIAL HOME PAGE"> This is the description on the website 
+- <meta name="author" content="Sphiwe Nkateko Manganyi"> This shows the author of the website
+- <meta name="keywords" content="HTML, CSS, JavaScript"> This shows the different languages i used
+- I have also added an Enquiry page and added a Form Enquiry.
 
 -
 
