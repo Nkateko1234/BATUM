@@ -1,0 +1,64 @@
+<!Doctype html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Products Page">
+<meta name="author" content="Nkateko Sphiwe Manganyi">
+<meta name="keywords" content="HTML,CSS">
+<title>Products and services</title>
+<link rel = "stylesheet" href = "css/CSS Styles 3 Products.css">
+</head>
+
+<body>
+<header>
+<nav class = "navbar">
+<div class = "logo">
+    <!-- Company logo and brand name -->
+<img src = "Images/Logo.jpg" alt = "Company logo" style = "width:70px;height:60px;border-radius:50%;">BATUM
+<p class="tagline">Confidence in Every Outfit.</p>
+</div>
+    <!--Navigation links to other pages-->
+<div class = "hamburger" onclick = "document.querySelector('.nav-links').classList.toggle('show')">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<!--Navigation links to other pages-->
+<div class = "nav-links">	
+<a href="home.html">Home page</a>
+<a href="about.html">About us </a>
+<a href="products.html">Products and Service </a>
+<a href = "news.html"> News Update</a>
+<a href = "contact.html"> Contact us </a>
+<a href = "enquiry.html"> Enquiry </a>
+</div>
+</nav>
+</header>
+<main>
+<h1>Welcome to Batum's products and services page</h1>
+<div class="product-gallery">
+<img src = "Images/Shirt 1.jpg" alt = "shirt 1" onclick="openLightbox('Images/Shirt 1.jpg', 'Shirt 1')">
+<img src = "Images/Shirt 2.jpg" alt = "shirt 2" onclick="openLightbox('Images/Shirt 2.jpg', 'Shirt 2')">
+<img src = "Images/Shirt 3.jpg" alt = "shirt 3" onclick="openLightbox('Images/Shirt 3.jpg', 'Shirt 3')">
+<img src = "Images/Shirt 4.jpg" alt = "shirt 4" onclick="openLightbox('Images/Shirt 4.jpg', 'Shirt 4')">
+<img src = "Images/Shirt 5.jpg" alt = "shirt 5" onclick="openLightbox('Images/Shirt 5.jpg', 'Shirt 5')">
+<img src = "Images/Shirt 6.jpg" alt = "shirt 6" onclick="openLightbox('Images/Shirt 6.jpg', 'Shirt 6')">
+</div>
+<div id="lightbox" class="lightbox" style="display:none;">
+    <div class="lightbox-content">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="">
+        <p id="lightbox-caption"></p>
+        <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+        <button class="next" onclick="changeImage(1)">&#10095;</button>
+    </div>
+</div>
+<script src = "JavaScript/lightbox.js" defer ></script>
+</main>
+<footer>
+<p>&copy;ST10477353. 2025 BATUM | All rights Reserved.</p>
+</footer>
+</body>
+</html>
