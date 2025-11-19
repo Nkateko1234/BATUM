@@ -68,8 +68,21 @@ Changes Implemented on my part 2 from part 1
 - Added styles to my header to have a black background, white font colour, and a navigation bar.
 - For the images I added round corners instead of sharp corners to bring the image to life.
 - For my navigation bar I included a logo and links to other parts of the site, and it can change its style to a blue colour when you hover your mouse over it. The website work well on smaller screens like phones by showing a "hamburger" menu.
-- I have added a tagline under my logo.
-- For my products page, i added a product gallery class that displays images in two column grids on large screens and switches to a single column on smaller screens for better readability. 
--Each image has a nice hover effect that makes the pictures grow slightly and glow yellow to grab the user’s attention.
-- I added a background colour on my footer and cantered the information to make it look nicer.
+
+- # Part 3 Changes to my website
+- Changes Implemented on my part 3 from part 2
+- For part 3 I will add an Interactive map that will display on the contact us page
+I will also add a Gallery lightbox that will display the pictures when you click them and also add an effect that hovers around the pictures 
+I added a different style for the light box which has a White background and black icons
+I will also add a slide show that allows the user to move from one picture to another
+I will also add SEO Title tags , SEO Meta Keywords, SEO Description and SEO Images:
+These are the following SEO’s I used:
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BATUM OFFICIAL HOME PAGE">
+<meta name="author" content="Sphiwe Nkateko Manganyi">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+I have also added an Enquiry page and added a Form Enquiry.
+
+-
 
